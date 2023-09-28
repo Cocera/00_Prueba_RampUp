@@ -37,7 +37,7 @@ function contar(num1) {
         for (let i=0; i<=50; i++) {   //contador de 50 posiciones
             num1++   // suma un valor al numero dado
             if (num1%2!==0) {resultado.push(num1)}   //si el numero es impar lo introduce en la array
-        }
+        };
         console.log(resultado);
     };
 
